@@ -1,0 +1,156 @@
+\documentclass{VUMIFPSkursinis}
+\usepackage{algorithmicx}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{bm}
+\usepackage{caption}
+\usepackage{color}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{subfig}
+\usepackage{wrapfig}
+
+\usepackage{enumitem}
+%PAKEISTA, tarpai tarp sąrašo elementų
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+\setenumerate{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+
+% Titulinio aprašas
+\university{Vilniaus universitetas}
+\faculty{Matematikos ir informatikos fakultetas}
+\department{Programų sistemų katedra}
+\papertype{Programų sistemų inžinerijos I laboratorinis darbas}
+\title{Socialinis Vilniaus universiteto tinklalapis}
+\titleineng{SocialVU}
+\status{2 kurso 4 grupės studentai}
+\author{Andrejus Voitovas}
+\secondauthor{Eglė Puodžiūnaitė}
+\thirdauthor{Kasparas Kralikas}
+\fourthauthor{Ieva Vizgirdaitė} % Pridėti antrą autorių
+\supervisor{asist. dr. Vytautas Valaitis}
+\date{Vilnius – \the\year}
+
+% Nustatymai
+% \setmainfont{Palemonas}   % Pakeisti teksto šriftą į Palemonas (turi būti įdiegtas sistemoje)
+\bibliography{bibliografija}
+
+\begin{document}
+	
+% PAKEISTA	
+\maketitle
+\cleardoublepage\pagenumbering{arabic}
+\setcounter{page}{2}
+
+%TURINYS
+\tableofcontents
+
+\sectionnonum{Įvadas}
+Tikslas - sukurti socialinio tinklalalapio prototipą, kurį įgyvendinus būtų palengvinta universiteto bendruomenės komunikaciją.
+
+Temos aktualumas:
+Šiuo metu studentams dėstytojų skelbiama informacija yra išbarstyta internete, kurią surasti užima galybes laiko. Yra atskiras universiteto naujienų puslapis, kiekvienas dėstytojas turi savo asmeninį tinklalapį, atskiras elektroninis paštas. Tiek dėstytojui pasiekti studentus, tiek studentui dėstytoją yra komplikuota ir nepatogu.
+
+Siekiami rezultatai:
+
+\sectionnonum{VERSLO PROCESO APRAŠAS}
+\section{IŠORINĖ VERSLO PROCESO ANALIZĖ}
+Išorinė analizės metu išsiaiškinami ištekliai
+reikalingi pradėti verslą, išryškinamos kuriamo verslo grėsmės ir
+problemos, kuriami tinklalapio teikiami rezultatai ir išanalizuojama rinkoje esanti situacija. Nustačius rinkoje esančius ir potencialius konkurentus išanalizuojamos
+neišnaudotos galimybės bei įvertinama situacija.
+\begin{center}
+\subsection{Įeigos}
+\end{center}
+\begin{enumerate}
+	\item Studentai
+	\item Dėstytojai
+	\item Administratorius
+	\item Duomenų bazė
+	\item Serveris
+\end{enumerate}
+\begin{table}[H]\footnotesize
+	\centering
+	\caption{Įeigos}
+	{\begin{tabular}{|c|c|c|c|} \hline
+			Vertinimo kriterijus & Mertinimo matas & Siekiama vertė & Kritinė vertė \\
+			\hline
+			Studentai & Kiekis studentų, naudojančių socialVU tinklalapį & 21281 & 10000 \\
+			\hline
+			Dėstytojai & Kiekis dėstytojų, naudojančių socialVU tinklalapį & 2890 & 1500 \\
+			\hline
+			Administratorius & Pašalintų naudotojų skaičius per
+			mėnesį & 0 & 30 \\
+			\hline
+			Duomenų bazė & Talpa GB & 50 & 10 \\
+			\hline
+			Serveris & Vidutinis užklausos apdorojimo laikas sekundėmis & 1 & 5 \\
+			\hline
+	\end{tabular}}
+\end{table}
+\begin{center}
+\subsection{Išeigos}
+\end{center}
+\begin{enumerate}
+	\item Studentai, radę visą reikiamą informaciją
+	\item Dėstytojai, pateikę visą norimą informaciją
+\end{enumerate}
+\begin{table}[H]\footnotesize
+	\centering
+	\caption{Išeigos}
+	{\begin{tabular}{|c|c|c|c|} \hline
+			Vertinimo kriterijus & Mertinimo matas & Siekiama vertė & Kritinė vertė \\
+			\hline
+			Studentai, radę visą reikiamą informaciją & Kiekis per mėnesį \% & 100 & 50 \\
+			\hline
+			Dėstytojai, pateikę visą norimą informaciją & Kiekis per mėnesį \% & 100 & 50 \\
+			\hline
+	\end{tabular}}
+\end{table}
+\begin{center}
+	\subsection{Įvaizdis}
+\end{center}
+\begin{enumerate}
+	\item Dėstytojų bei studentų atsiliepimai
+	\item Sistemos žinomumas
+\end{enumerate}
+\begin{table}[H]\footnotesize
+	\centering
+	\caption{Įvaizdis}
+	{\begin{tabular}{|c|c|c|c|} \hline
+			Vertinimo kriterijus & Mertinimo matas & Siekiama vertė & Kritinė vertė \\
+			\hline
+			Dėstytojų bei studentų atsiliepimai & Teigiamų atsiliepimų \% nuo visų atsiliepimų & 90 & 50 \\
+			\hline
+			Sistemos žinomumas & Vilniaus universiteto studentų \% žinančių šį tinklalapį & 100 & 50 \\
+			\hline
+	\end{tabular}}
+\end{table}
+\begin{center}
+	\subsection{Reguliavimas}
+\end{center}
+\begin{enumerate}
+	\item Asmens duomenų teisinės apsaugos įstatymas
+	\item Darbo kodeksas
+\end{enumerate}
+\begin{table}[H]\footnotesize
+	\centering
+	\caption{Įvaizdis}
+	{\begin{tabular}{|c|c|c|c|} \hline
+			Vertinimo kriterijus & Mertinimo matas & Siekiama vertė & Kritinė vertė \\
+			\hline
+			Asmens duomenų teisinės apsaugos įstatymas & Pažeidimų skaičius & 0 & 0 \\
+			\hline
+			Darbo kodeksas & Viršytas darbo laikas (kartais per metus) & 0 & 0 \\
+			\hline
+	\end{tabular}}
+\end{table}
+\begin{center}
+	\subsection{Grėsmės}
+\end{center}
+\begin{center}
+	\subsection{Neišnaudotos galimybės}
+\end{center}
+\end{document}
