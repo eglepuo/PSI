@@ -25,3 +25,7 @@
 \contentsline {subsection}{\numberline {2.1.}Dalykinės srities statinė stukrtūra}{7}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.}Užduotys}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.}Užduočių vykdymo scenarijai}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.}Dalykinės srities dinaminė struktūra}{9}

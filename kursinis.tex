@@ -162,10 +162,9 @@ SĄVOKOS: \\
 \textbf{Administratorius} – vartotojas, kuris turi galimybę redaguoti visą socialinio tinklo turinį, išskyrus dėstytojus.
 
 \subsection{Užduotys}
-\textbf{Užduočių sąrašas:} \\
-\textbf{Užduotis:} sukurti naujieną. \\
+\setlength{\parindent}{0pt}\textbf{Užduotis:} sukurti naujieną. \\
 \textbf{Tikslas:} publikuoti naujieną, kuri būtų įdomi.\\
-\textbf{Trigeris:} įdarbinimo bendrovės apsilankymas darbuotojų sąraše. \\
+\textbf{Trigeris:} administratoriaus arba dėstytojo kuriama naujiena tituliniui. \\
 \textbf{Prioritetas:} aukštas. \\
 \textbf{„Prieš” sąlygos:} naujiena bus skaitoma.\\
 \textbf{Sėkmingos baigties „po” sąlyga:} naujiena perskaitoma ir įsisavinama nauja informacija. \\
@@ -173,9 +172,9 @@ SĄVOKOS: \\
 \textbf{Pirminis agentas:} administratorius. \\
 \textbf{Antriniai agentai:} studentas. \\ 
 
-\textbf{Užduotis:} redaguoti puslapį. \\
+\setlength{\parindent}{0pt}\textbf{Užduotis:} redaguoti puslapį. \\
 \textbf{Tikslas:} redaguoti dėstytojo puslapį.\\
-\textbf{Trigeris:} įdarbinimo bendrovės apsilankymas darbuotojų sąraše. \\
+\textbf{Trigeris:} prisijungęs dėstytojas gali redaguoti puslapį. \\
 \textbf{Prioritetas:} aukštas. \\
 \textbf{„Prieš” sąlygos:} dėstytojas patogiai talpina informaciją.\\
 \textbf{Sėkmingos baigties „po” sąlyga:} dėstytojo informacija sudėliota pagal šabloną ir patogi naudojimuisi. \\
@@ -183,9 +182,9 @@ SĄVOKOS: \\
 \textbf{Pirminis agentas:} dėstytojas. \\
 \textbf{Antriniai agentai:} studentas. \\
 
-\textbf{Užduotis:} sukurti renginį. \\
+\setlength{\parindent}{0pt}\textbf{Užduotis:} sukurti renginį. \\
 \textbf{Tikslas:} publikuoti renginį, kuris būtų naudingas.\\
-\textbf{Trigeris:} įdarbinimo bendrovės apsilankymas darbuotojų sąraše. \\
+\textbf{Trigeris:} administratoriaus arba dėstytojo sukurtas renginys atsiranda puslapyje. \\
 \textbf{Prioritetas:} aukštas. \\
 \textbf{„Prieš” sąlygos:} renginį aplankys daug žmonių.\\
 \textbf{Sėkmingos baigties „po” sąlyga:} renginys pateisino savo lūkesčius. \\
@@ -194,9 +193,9 @@ SĄVOKOS: \\
 \textbf{Antriniai agentai:} studentas. \\
 
 
-\textbf{Užduotis:} parašyti žinutę. \\
+\setlength{\parindent}{0pt}\textbf{Užduotis:} parašyti žinutę. \\
 \textbf{Tikslas:} parašyti žinutę tiesiai vartotojui.\\
-\textbf{Trigeris:} įdarbinimo bendrovės apsilankymas darbuotojų sąraše. \\
+\textbf{Trigeris:} studentas, paspaudęs ant dėstytojo, gali parašyti jam žinutę. \\
 \textbf{Prioritetas:} aukštas. \\
 \textbf{„Prieš” sąlygos:} vartotojas gaus žinutę.\\
 \textbf{Sėkmingos baigties „po” sąlyga:} vartotojai patogiai komunikuos tarpusavy. \\
@@ -204,13 +203,32 @@ SĄVOKOS: \\
 \textbf{Pirminis agentas:} studentas. \\
 \textbf{Antriniai agentai:} administratorius.\\
 
-\textbf{Užduotis:} apsilankyti asmeniniame puslapyje. \\
+\setlength{\parindent}{0pt} \textbf{Užduotis:} apsilankyti asmeniniame puslapyje. \\
 \textbf{Tikslas:} pasiekti dėsytotojo asmeninį puslapį.\\
-\textbf{Trigeris:} įdarbinimo bendrovės apsilankymas darbuotojų sąraše. \\
+\textbf{Trigeris:} studentų apsilankymas dėstytojų profilyje. \\
 \textbf{Prioritetas:} aukštas. \\
 \textbf{„Prieš” sąlygos:} vartotojai lankysis dėstytojų puslapiuose per socialinį tinklą.\\
 \textbf{Sėkmingos baigties „po” sąlyga:} vartotojams bus patogu pasiekti puslapį ir sužinoti informaciją. \\
 \textbf{Nesėkmingos baigties sąlyga:} vartotojai toliau ieškos puslapių naudojantis "Google". \\
 \textbf{Pirminis agentas:} studentas. \\
 \textbf{Antriniai agentai:} administratorius.
+
+\subsection{Užduočių vykdymo scenarijai}
+\ref{fig:klasiu} pav. paveikslėlyje pavaizduota esybių diagrama. Pateikiamos pagrindinės dalykinės srities esybės, pavaizduoti ryšiai tarp jų. 
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{img/bendra-uml.png}
+\caption{Klasių diagrama}
+\label{fig:klasiu}
+\end{figure}
+1 pav. vaizuduojamas socialinio tinklo naudojimosi modelis. Studentas gali rašyti dėstytojui žinutę, o dėstytojas jam gali atsakyti. Taip pat studentas skaito puslapį, kurį pats dėstytojas ir sukūrė. Administratorius kuria turinį, į kurį įeina: renginiai, naujienos, D.U.K.
+\subsection{Dalykinės srities dinaminė struktūra}
+Studentas:
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{img/studentas.png}
+\caption{Studento UML klasių diagrama}
+\label{fig:studentu}
+\end{figure}
+\ref{fig:studentu} pav. Prisijungęs studentas turi galimybę matyti bendrą turinį. Vėliau gali parašyti žinutę dėstytojui arba naudojasi dėstytojo pateiktu turiniu. Jie tarpusavyje gali komunikuoti socialinio tinklo pagalba, nenaudojant trečiųjų šalių servisų.
 \end{document}

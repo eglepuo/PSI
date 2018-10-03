@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.9.11)  3 OCT 2018 17:28
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.9.11)  3 OCT 2018 18:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1264,39 +1264,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--156
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--175
+Underfull \hbox (badness 10000) in paragraph at lines 165--174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--184
 
  []
 
 [7
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 176--185
+Underfull \hbox (badness 10000) in paragraph at lines 185--194
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--195
+Underfull \hbox (badness 10000) in paragraph at lines 196--205
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 197--206
-
- []
-
-[8] [9] (./kursinis.aux)
+File: img/bendra-uml.png Graphic file (type bmp)
+<img/bendra-uml.png>
+[8]
+File: img/studentas.png Graphic file (type bmp)
+<img/studentas.png>
+ [9] [10] (./kursinis.aux)
 Package logreq Info: Writing requests to 'kursinis.run.xml'.
 \openout1 = `kursinis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23813 strings out of 493007
- 468388 string characters out of 6136719
+ 23828 strings out of 493007
+ 468618 string characters out of 6136719
  960418 words of memory out of 5000000
- 27500 multiletter control sequences out of 15000+600000
+ 27510 multiletter control sequences out of 15000+600000
  544767 words of font info for 95 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  67i,12n,96p,10540b,787s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on kursinis.pdf (9 pages).
+Output written on kursinis.pdf (10 pages).
