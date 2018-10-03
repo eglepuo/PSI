@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6500 64-bit) (preloaded format=xelatex 2018.10.1)  2 OCT 2018 21:17
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6500 64-bit) (preloaded format=xelatex 2018.10.1)  3 OCT 2018 11:52
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1255,40 +1255,18 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [4
 
-]
-Overfull \hbox (43.88953pt too wide) in paragraph at lines 122--130
- [][] 
- []
+] [5
 
-[5
-
-]
-Overfull \hbox (34.74954pt too wide) in paragraph at lines 141--149
- [][] 
- []
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.155 \end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[6] (kursinis.aux)
+] [6] (kursinis.aux)
 Package logreq Info: Writing requests to 'kursinis.run.xml'.
 \openout1 = `kursinis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23623 strings out of 427835
- 458652 string characters out of 3152454
- 951809 words of memory out of 3000000
- 27335 multiletter control sequences out of 15000+200000
+ 23622 strings out of 427835
+ 458635 string characters out of 3152454
+ 954809 words of memory out of 3000000
+ 27334 multiletter control sequences out of 15000+200000
  544767 words of font info for 95 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  67i,11n,96p,10542b,3426s stack positions out of 5000i,500n,10000p,200000b,50000s
