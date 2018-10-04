@@ -26,18 +26,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.}Dalykinės srities statinė stukrtūra}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.}Užduotys}{8}
+\contentsline {subsection}{\numberline {2.2.}Užduotys}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.}Užduočių vykdymo scenarijai}{10}
+\contentsline {subsection}{\numberline {2.3.}Užduočių vykdymo scenarijai}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.}Dalykinės srities dinaminė struktūra}{10}
+\contentsline {subsection}{\numberline {2.4.}Dalykinės srities dinaminė struktūra}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.}IŠORINĖS IR VIDINĖS ANALIZĖS REZULTATAI}{12}
+\contentsline {section}{\numberline {3.}IŠORINĖS IR VIDINĖS ANALIZĖS REZULTATAI}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.}ĮGYVENDINAMUMO IR NAUDOS ANALIZĖ}{13}
+\contentsline {section}{\numberline {4.}ĮGYVENDINAMUMO IR NAUDOS ANALIZĖ}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.}Operacinis įgyvendinamumas}{13}
+\contentsline {subsection}{\numberline {4.1.}Operacinis įgyvendinamumas}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.}Techninis įgyvendinamumas}{13}
+\contentsline {subsection}{\numberline {4.2.}Techninis įgyvendinamumas}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.}Ekonominis įgyvendinamumas}{13}
+\contentsline {subsection}{\numberline {4.3.}Ekonominis įgyvendinamumas}{15}

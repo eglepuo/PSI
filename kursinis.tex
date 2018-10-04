@@ -44,6 +44,21 @@
 \cleardoublepage\pagenumbering{arabic}
 \setcounter{page}{2}
 \sectionnonum{ANOTACIJA}
+Šis dokumentas sudarytas iš trijų dalių. Pirmoje dalyje pateikiama dalykinės srities anali-
+zė. Išorinėje verslo proceso analizėje identifikuojamos pagrindinės grėsmės ir galimybės. Vidinėje
+verslo proceso analizėje nustatomos verslo stiprybės ir silpnybės, kylančios iš paties verslo proceso.
+Dokumente taip pat pateikiamos verslo tobulinimo strategijos, nagrinėjamos galimybės įgyvendinti
+sistemą tiek technininiu požiūriu, tiek ir ekonominiu, pagrindžiant, ar projektas atsipirks. Antroje
+dalyje detaliai išdėstomi pagrindiniai socialinio tinklo valdymo scenarijai. Pateikiama
+vartotojo interfeiso, funkcinių ir nefunkcinių programų sistemos reikalavimų specifikacija, kuria
+siekiama užtikrinti kuriamos programinės įrangos funkcionalumą bei poreikių atitikimą. Trečioje
+dalyje aprašoma kuriamos sistemos architektūra naudojant UML 4+1 požiūrių rinkinį. Žvelgiama
+į sistemą 5 skirtingais požiūriais. Loginis pjūvis skirtas parodyti sistemos funkcionalumą, aprašyti
+santykius tarp esybių. Užduočių pjūvyje pateiksime, kokias užduotis gali įgyvendinti vartotojas,
+kokie jų įgyvendimo scenarijai. Kūrimo pjūvyje pateikiama, kaip susiję atskiri komponentai. Fizi-
+niame pjūvyje parodoma, kaip sistema išdėstoma tinkle, kaip ji diegiama, kokia įranga naudojama.
+Procesų pjūvis pateikia dinaminį sistemos modelį: paaiškina sistemoje vykstančius procesus, pa-
+rodo, kaip procesai komunikuoja, galimus sistemos darbo atvejus.
 \newpage
 %TURINYS
 \tableofcontents
@@ -150,11 +165,19 @@ Kuriamas verslas yra priklausomas nuo dviejų pagrindinių įvesčių - dėstyto
 \subsection{Neišnaudotos galimybės}
 Rinkoje jau egzistuojančios Vilniaus universiteto platformos turi trūkumų (dauguma dėstytojų skelbia informaciją skirtinguose puslapiuose, todėl studentams sunku juos surasti, ne visada yra galimybė susisiekti su dėstytojais, dauguma konspektų nėra lengvai pasiekiami visiems studentams), todėl kuriama sistema gali juos išnaudoti ir pasiūlyti studentams visą reikiamą informaciją rasti vienoje vietoje. Sistema suteiks galimybę išsiųsti laišką dėstytojui bei rasti visą paskelbtą dėstytojo informaciją vienoje vietoje, studentai galės matyti naujausią informaciją bei terminus iki kada turi atlikti tam tikras užduotis. Be to vienoje vietoje galės rasti visus reikiamus konpektus bei pasidalinti turimais konspektais su kitais studentais ir taip padėti mokytis kitiems.
 \newpage
+\newpage
 \section{VIDINĖ VERSLO PROCESO ANALIZĖ}
 Toliau pateikiama keliais aspektais atlikta vidinė verslo proceso analizė, kuria siekiama
 nustatyti nagrinėjamo verslo stiprybes ir silpnybes, kylančias iš verslo proceso.
 \subsection{Dalykinės srities statinė stukrtūra}
-Toliau pateikiama dalykinės srities statinės struktūros UML diagrama. Joje matomos pagrindinės esybės bei jų tarpusavio sąveika. Klientai yra dviejų tipų: studentai, dėstytojai ir administratoriai (dėstytojai bei administratoriai skiriasi turinio redagavimo teisėmis). Studentams, administratoriams ir dėstytojams registruotis nereikia, nes visa vartotojų duomenų bazė bus imama iš bendros VU vartotojų duomenų bazės. Vartotojui tereikia autentifikuoti save - tokiu būdu, priklausomai nuo užimamų pareigų, jam bus suteiktos teisės prie numatyto turinio. Studentai gali tik skaityti tokius puslapius kaip "Dėstytojai", "Naujienos", "Renginiai", "D.U.K". Tuo tarpu dėstytojai skiltyje "Naujienos" gali parašyti naujieną. Be to, jiems suteikta prieiga prie jų profilio, kur turi teisę redaguoti savo asmeninį puslapį pagal mūsų sukurtą šabloną, siųsti bei gauti žinutes, pridėti organizuojamą renginį. Administratoriumi gali būti fakulteto paskirtas žmogus, atsakingas už tikslingo turinio formavimą vidiniame socialiniame tinkle arba VU Studento atstovybės narys, kuris turi teisę redaguoti visą turinį. Tačiau joks administratorius negali redaguoti dėstytojo sukurto turinio, nes taip numato mūsų kurtas produktas.\\
+ Toliau pateikiama dalykinės srities statinės struktūros UML diagrama. Joje matomos pagrindinės esybės bei jų tarpusavio sąveika. Klientai yra dviejų tipų: studentai, dėstytojai ir administratoriai (dėstytojai bei administratoriai skiriasi turinio redagavimo teisėmis). Studentams, administratoriams ir dėstytojams registruotis nereikia, nes visa vartotojų duomenų bazė bus imama iš bendros VU vartotojų duomenų bazės. Vartotojui tereikia autentifikuoti save - tokiu būdu, priklausomai nuo užimamų pareigų, jam bus suteiktos teisės prie numatyto turinio. Studentai gali tik skaityti tokius puslapius kaip "Dėstytojai", "Naujienos", "Renginiai", "D.U.K". Tuo tarpu dėstytojai skiltyje "Naujienos" gali parašyti naujieną. Be to, jiems suteikta prieiga prie jų profilio, kur turi teisę redaguoti savo asmeninį puslapį pagal mūsų sukurtą šabloną, siųsti bei gauti žinutes, pridėti organizuojamą renginį. Administratoriumi gali būti fakulteto paskirtas žmogus, atsakingas už tikslingo turinio formavimą vidiniame socialiniame tinkle arba VU Studento atstovybės narys, kuris turi teisę redaguoti visą turinį. Tačiau joks administratorius negali redaguoti dėstytojo sukurto turinio, nes taip numato mūsų kurtas produktas.\\
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{img/dalykine.png}
+\label{fig:dalykine}
+\caption{Dalykinė srities UML diagrama}
+\end{figure}
 
 SĄVOKOS: \\
 Šiame skyriuje pateikiami specifiniai mūsų projekte naudotų žodžių paaiškinimai. \\
@@ -164,6 +187,13 @@ SĄVOKOS: \\
 \textbf{Administratorius} – vartotojas, kuris turi galimybę redaguoti visą socialinio tinklo turinį, išskyrus dėstytojus.
 
 \subsection{Užduotys}
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{img/DVS.png}
+\caption{Užduočių veiklos UML diagrama}
+\label{fig:dvs}
+\end{figure}
+\setlength{\parindent}{0pt}Užduočių sąrašas pagal \ref{fig:dvs} pav.:\\
 \setlength{\parindent}{0pt}\textbf{Užduotis:} sukurti naujieną. \\
 \textbf{Tikslas:} publikuoti naujieną, kuri būtų įdomi.\\
 \textbf{Trigeris:} administratoriaus arba dėstytojo kuriama naujiena tituliniui. \\
@@ -223,7 +253,7 @@ SĄVOKOS: \\
 \caption{Klasių diagrama}
 \label{fig:klasiu}
 \end{figure}
-1 pav. vaizduojamas socialinio tinklo naudojimosi modelis. Studentas gali rašyti dėstytojui žinutę, o dėstytojas jam gali atsakyti. Taip pat studentas skaito puslapį, kurį pats dėstytojas ir sukūrė. Administratorius kuria turinį, į kurį įeina: renginiai, naujienos, D.U.K.
+\ref{fig:klasiu} pav. vaizuduojamas socialinio tinklo naudojimosi modelis. Studentas gali rašyti dėstytojui žinutę, o dėstytojas jam gali atsakyti. Taip pat studentas skaito puslapį, kurį pats dėstytojas ir sukūrė. Administratorius kuria turinį, į kurį įeina: renginiai, naujienos, D.U.K.
 \subsection{Dalykinės srities dinaminė struktūra}
 Studentas:
 \begin{figure}[H]
@@ -232,7 +262,23 @@ Studentas:
 \caption{Studento UML klasių diagrama}
 \label{fig:studentu}
 \end{figure}
-\ref{fig:studentu} pav. Prisijungęs studentas turi galimybę matyti bendrą turinį. Vėliau gali parašyti žinutę dėstytojui arba naudojasi dėstytojo pateiktu turiniu. Jie tarpusavyje gali komunikuoti socialinio tinklo pagalba, nenaudojant trečiųjų šalių servisų.
+\ref{fig:studentu} pav. Prisijungęs studentas turi galimybę matyti bendrą turinį. Vėliau gali parašyti žinutę dėstytojui arba naudojasi dėstytojo pateiktu turiniu. Jie tarpusavyje gali komunikuoti socialinio tinklo pagalba, nenaudojant trečiųjų šalių servisų.\\
+Dėstytojas: \\
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{img/destytojas.png}
+\caption{Dėstytojo UML klasių diagrama}
+\label{fig:destytoju}
+\end{figure}
+\ref{fig:destytoju} pav. Prisijungęs dėstytojas turi galimybę redaguoti savo puslapio turinį, pagal iš anksto paruoštą šabloną. Dar turi galimybę rašyti bei atsakyti į studentų gautas žinutes. Naujienų rašymas, renginių kūrimas, D.U.K skilties papildymas irgi įeina į aukščiau aprašomo vartotojo galimybes.\\
+Administratorius: \\
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{img/administratorius.png}
+\caption{Administratoriaus UML klasių diagrama}
+\label{fig:administratoriu}
+\end{figure}
+\ref{fig:administratoriu} pav. Prisijungęs administratorius, tai žmogus, kuris atsakingas už bendrą socialinio tinklo turinį, į kurį neįeina dėstytojų puslapių redagavimas. Administratorius gali kurti bei redaguoti tik naujienų, D.U.K ir renginių skiltis.\\
 \newpage
 \section{IŠORINĖS IR VIDINĖS ANALIZĖS REZULTATAI}
 Išorinės ir vidinės analizės rezultatai pateikiami pasinaudojant SSGG (SWOT) lentele. Lentelėje pateikiamos verslo stiprybės, silpnybės, jam kylančios grėsmės ir atsiradusios neišnaudotos galimybės.
