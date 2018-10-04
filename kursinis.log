@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6500 64-bit) (preloaded format=xelatex 2018.10.1)  4 OCT 2018 11:21
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6500 64-bit) (preloaded format=xelatex 2018.10.1)  4 OCT 2018 13:09
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1255,27 +1255,27 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout5 = `kursinis.toc'.
 
  [3] [4] [5] [6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 157--159
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--177
+Underfull \hbox (badness 10000) in paragraph at lines 167--176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--187
+Underfull \hbox (badness 10000) in paragraph at lines 177--186
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 188--197
+Underfull \hbox (badness 10000) in paragraph at lines 187--196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--208
+Underfull \hbox (badness 10000) in paragraph at lines 198--207
 
  []
 
@@ -1284,7 +1284,7 @@ File: img/bendra-uml.png Graphic file (type bmp)
 [9]
 File: img/studentas.png Graphic file (type bmp)
 <img/studentas.png>
- [10] [11] [12] (kursinis.aux)
+ [10] [11] [12] [13] (kursinis.aux)
 Package logreq Info: Writing requests to 'kursinis.run.xml'.
 \openout1 = `kursinis.run.xml'.
 
@@ -1298,4 +1298,4 @@ Here is how much of TeX's memory you used:
  1328 hyphenation exceptions out of 8191
  67i,12n,96p,10542b,3426s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on kursinis.pdf (12 pages).
+Output written on kursinis.pdf (13 pages).

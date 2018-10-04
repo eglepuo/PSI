@@ -32,10 +32,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.}Dalykinės srities dinaminė struktūra}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.}Įgyvendinamumo ir naudos analizė}{12}
+\contentsline {section}{\numberline {3.}IŠORINĖS IR VIDINĖS ANALIZĖS REZULTATAI}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.}Operacinis įgyvendinamumas}{12}
+\contentsline {section}{\numberline {4.}ĮGYVENDINAMUMO IR NAUDOS ANALIZĖ}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.}Techninis įgyvendinamumas}{12}
+\contentsline {subsection}{\numberline {4.1.}Operacinis įgyvendinamumas}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.}Ekonominis įgyvendinamumas}{12}
+\contentsline {subsection}{\numberline {4.2.}Techninis įgyvendinamumas}{13}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.}Ekonominis įgyvendinamumas}{13}

@@ -154,8 +154,7 @@ Rinkoje jau egzistuojančios Vilniaus universiteto platformos turi trūkumų (da
 Toliau pateikiama keliais aspektais atlikta vidinė verslo proceso analizė, kuria siekiama
 nustatyti nagrinėjamo verslo stiprybes ir silpnybes, kylančias iš verslo proceso.
 \subsection{Dalykinės srities statinė stukrtūra}
- Toliau pateikiama dalykinės srities statinės struktūros UML diagrama. Joje matomos pag-
-rindinės esybės bei jų tarpusavio sąveika. Klientai yra dviejų tipų: studentai, dėstytojai ir administratoriai (dėstytojai bei administratoriai skiriasi turinio redagavimo teisėmis). Studentams, administratoriams ir dėstytojams registruotis nereikia, nes visa vartotojų duomenų bazė bus imama iš bendros VU vartotojų duomenų bazės. Vartotojui tereikia autentifikuoti save - tokiu būdu, priklausomai nuo užimamų pareigų, jam bus suteiktos teisės prie numatyto turinio. Studentai gali tik skaityti tokius puslapius kaip "Dėstytojai", "Naujienos", "Renginiai", "D.U.K". Tuo tarpu dėstytojai skiltyje "Naujienos" gali parašyti naujieną. Be to, jiems suteikta prieiga prie jų profilio, kur turi teisę redaguoti savo asmeninį puslapį pagal mūsų sukurtą šabloną, siųsti bei gauti žinutes, pridėti organizuojamą renginį. Administratoriumi gali būti fakulteto paskirtas žmogus, atsakingas už tikslingo turinio formavimą vidiniame socialiniame tinkle arba VU Studento atstovybės narys, kuris turi teisę redaguoti visą turinį. Tačiau joks administratorius negali redaguoti dėstytojo sukurto turinio, nes taip numato mūsų kurtas produktas.\\
+Toliau pateikiama dalykinės srities statinės struktūros UML diagrama. Joje matomos pagrindinės esybės bei jų tarpusavio sąveika. Klientai yra dviejų tipų: studentai, dėstytojai ir administratoriai (dėstytojai bei administratoriai skiriasi turinio redagavimo teisėmis). Studentams, administratoriams ir dėstytojams registruotis nereikia, nes visa vartotojų duomenų bazė bus imama iš bendros VU vartotojų duomenų bazės. Vartotojui tereikia autentifikuoti save - tokiu būdu, priklausomai nuo užimamų pareigų, jam bus suteiktos teisės prie numatyto turinio. Studentai gali tik skaityti tokius puslapius kaip "Dėstytojai", "Naujienos", "Renginiai", "D.U.K". Tuo tarpu dėstytojai skiltyje "Naujienos" gali parašyti naujieną. Be to, jiems suteikta prieiga prie jų profilio, kur turi teisę redaguoti savo asmeninį puslapį pagal mūsų sukurtą šabloną, siųsti bei gauti žinutes, pridėti organizuojamą renginį. Administratoriumi gali būti fakulteto paskirtas žmogus, atsakingas už tikslingo turinio formavimą vidiniame socialiniame tinkle arba VU Studento atstovybės narys, kuris turi teisę redaguoti visą turinį. Tačiau joks administratorius negali redaguoti dėstytojo sukurto turinio, nes taip numato mūsų kurtas produktas.\\
 
 SĄVOKOS: \\
 Šiame skyriuje pateikiami specifiniai mūsų projekte naudotų žodžių paaiškinimai. \\
@@ -224,7 +223,7 @@ SĄVOKOS: \\
 \caption{Klasių diagrama}
 \label{fig:klasiu}
 \end{figure}
-1 pav. vaizuduojamas socialinio tinklo naudojimosi modelis. Studentas gali rašyti dėstytojui žinutę, o dėstytojas jam gali atsakyti. Taip pat studentas skaito puslapį, kurį pats dėstytojas ir sukūrė. Administratorius kuria turinį, į kurį įeina: renginiai, naujienos, D.U.K.
+1 pav. vaizduojamas socialinio tinklo naudojimosi modelis. Studentas gali rašyti dėstytojui žinutę, o dėstytojas jam gali atsakyti. Taip pat studentas skaito puslapį, kurį pats dėstytojas ir sukūrė. Administratorius kuria turinį, į kurį įeina: renginiai, naujienos, D.U.K.
 \subsection{Dalykinės srities dinaminė struktūra}
 Studentas:
 \begin{figure}[H]
@@ -235,7 +234,24 @@ Studentas:
 \end{figure}
 \ref{fig:studentu} pav. Prisijungęs studentas turi galimybę matyti bendrą turinį. Vėliau gali parašyti žinutę dėstytojui arba naudojasi dėstytojo pateiktu turiniu. Jie tarpusavyje gali komunikuoti socialinio tinklo pagalba, nenaudojant trečiųjų šalių servisų.
 \newpage
-\section{Įgyvendinamumo ir naudos analizė}
+\section{IŠORINĖS IR VIDINĖS ANALIZĖS REZULTATAI}
+Išorinės ir vidinės analizės rezultatai pateikiami pasinaudojant SSGG (SWOT) lentele. Lentelėje pateikiamos verslo stiprybės, silpnybės, jam kylančios grėsmės ir atsiradusios neišnaudotos galimybės.
+\begin{table}[H]\footnotesize
+	\centering
+	\caption{Analizės rezultatai SSGG lentelės pavidalu.}
+	\resizebox{\textwidth}{!}{\begin{tabular}{|l|l|} \hline
+			STIPRYBĖS & SILPNYBĖS \\
+			\hline
+			aa & aa \\
+			\hline
+			GALIMYBĖS & GRĖSMĖS \\
+			\hline
+			aa & aa \\
+			\hline
+	\end{tabular}}
+\end{table}
+\newpage
+\section{ĮGYVENDINAMUMO IR NAUDOS ANALIZĖ}
 Šiame skyriuje pateikiama informacija, kuri padeda nustatyti, ar darbų valdymo sistemą
 įmanoma sukurti, kokią konkrečią naudą ji duos, kokios problemos gali kilti ir kaip jos bus sprendžiamos.
 
