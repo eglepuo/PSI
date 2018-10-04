@@ -12,12 +12,13 @@
 \usepackage{listings}
 \usepackage{subfig}
 \usepackage{wrapfig}
+\usepackage{sectsty}
 
 \usepackage{enumitem}
 %PAKEISTA, tarpai tarp sąrašo elementų
 \setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
 \setenumerate{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
-
+\allsectionsfont{\centering}
 % Titulinio aprašas
 \university{Vilniaus universitetas}
 \faculty{Matematikos ir informatikos fakultetas}
@@ -38,24 +39,25 @@
 \bibliography{bibliografija}
 
 \begin{document}
-
 % PAKEISTA
 \maketitle
 \cleardoublepage\pagenumbering{arabic}
 \setcounter{page}{2}
-
+\sectionnonum{ANOTACIJA}
+\newpage
 %TURINYS
 \tableofcontents
 
-\sectionnonum{Įvadas}
+\sectionnonum{ĮVADAS}
 Tikslas - sukurti socialinio tinklalalapio prototipą, kurį įgyvendinus būtų palengvinta universiteto bendruomenės komunikaciją.
 
 Temos aktualumas:
 Šiuo metu studentams dėstytojų skelbiama informacija yra išbarstyta internete, kurią surasti užima galybes laiko. Yra atskiras universiteto naujienų puslapis, kiekvienas dėstytojas turi savo asmeninį tinklalapį, atskiras elektroninis paštas. Tiek dėstytojui pasiekti studentus, tiek studentui dėstytoją yra komplikuota ir nepatogu.
 
 Siekiami rezultatai:
-
+\newpage
 \sectionnonum{VERSLO PROCESO APRAŠAS}
+\newpage
 \section{IŠORINĖ VERSLO PROCESO ANALIZĖ}
 Išorinė analizės metu išsiaiškinami ištekliai
 reikalingi pradėti verslą, išryškinamos kuriamo verslo grėsmės ir
@@ -147,6 +149,7 @@ nustatyti, ar tam tikras vertinimo kriterijus atitinka normas.
 Kuriamas verslas yra priklausomas nuo dviejų pagrindinių įvesčių - dėstytojų ir studentų. Jų skaičius ir aktyvumas lemia kuriamos programos sėkmę. Rinkoje jau egzistuoja nemažai socialinių tinklų, kuriuos naudoja dauguma studentų (Facebook, Instagram, Linkedin, Twitter ir t.t.) be to dauguma dėstytojų yra ipratę skelbti visą informaciją savo sukurtuose puslapiuose arba bando integruoti informaciją į Vilniaus universiteto virtualią mokymosi aplinką, todėl konkurencija yra gana didelė. Kuo daugiau dėstytojų pradės naudoti mūsų sukurtą platformą, tuo daugiau studentų taip pat privalės naudoti šį tinklalapį, nes tik ten galės rasti jiems reikiamą informaciją. Sėkmingam kuriamo verslo proceso egzistavimui turi įtakos reitingų ir atsiliepimų skaičius bei kokybė, tačiau visų pirma reikia užtikrinti, jog dauguma studentų bei dėstytojų išbandytų mūsų sukurtą sistemą bei ją įvertintų.
 \subsection{Neišnaudotos galimybės}
 Rinkoje jau egzistuojančios Vilniaus universiteto platformos turi trūkumų (dauguma dėstytojų skelbia informaciją skirtinguose puslapiuose, todėl studentams sunku juos surasti, ne visada yra galimybė susisiekti su dėstytojais, dauguma konspektų nėra lengvai pasiekiami visiems studentams), todėl kuriama sistema gali juos išnaudoti ir pasiūlyti studentams visą reikiamą informaciją rasti vienoje vietoje. Sistema suteiks galimybę išsiųsti laišką dėstytojui bei rasti visą paskelbtą dėstytojo informaciją vienoje vietoje, studentai galės matyti naujausią informaciją bei terminus iki kada turi atlikti tam tikras užduotis. Be to vienoje vietoje galės rasti visus reikiamus konpektus bei pasidalinti turimais konspektais su kitais studentais ir taip padėti mokytis kitiems.
+\newpage
 \section{VIDINĖ VERSLO PROCESO ANALIZĖ}
 Toliau pateikiama keliais aspektais atlikta vidinė verslo proceso analizė, kuria siekiama
 nustatyti nagrinėjamo verslo stiprybes ir silpnybes, kylančias iš verslo proceso.
@@ -231,7 +234,7 @@ Studentas:
 \label{fig:studentu}
 \end{figure}
 \ref{fig:studentu} pav. Prisijungęs studentas turi galimybę matyti bendrą turinį. Vėliau gali parašyti žinutę dėstytojui arba naudojasi dėstytojo pateiktu turiniu. Jie tarpusavyje gali komunikuoti socialinio tinklo pagalba, nenaudojant trečiųjų šalių servisų.
-
+\newpage
 \section{Įgyvendinamumo ir naudos analizė}
 Šiame skyriuje pateikiama informacija, kuri padeda nustatyti, ar darbų valdymo sistemą
 įmanoma sukurti, kokią konkrečią naudą ji duos, kokios problemos gali kilti ir kaip jos bus sprendžiamos.

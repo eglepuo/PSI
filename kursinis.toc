@@ -2,30 +2,40 @@
 \defcounter {refsection}{0}\relax 
 \select@language {lithuanian}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Įvadas}{3}
+\contentsline {section}{ANOTACIJA}{2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{VERSLO PROCESO APRAŠAS}{4}
+\contentsline {section}{ĮVADAS}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.}IŠORINĖ VERSLO PROCESO ANALIZĖ}{5}
+\contentsline {section}{VERSLO PROCESO APRAŠAS}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.}Įeigos}{5}
+\contentsline {section}{\numberline {1.}IŠORINĖ VERSLO PROCESO ANALIZĖ}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.}Išeigos}{5}
+\contentsline {subsection}{\numberline {1.1.}Įeigos}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.}Įvaizdis}{5}
+\contentsline {subsection}{\numberline {1.2.}Išeigos}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.}Reguliavimas}{6}
+\contentsline {subsection}{\numberline {1.3.}Įvaizdis}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.5.}Grėsmės}{6}
+\contentsline {subsection}{\numberline {1.4.}Reguliavimas}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.6.}Neišnaudotos galimybės}{6}
+\contentsline {subsection}{\numberline {1.5.}Grėsmės}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.}VIDINĖ VERSLO PROCESO ANALIZĖ}{7}
+\contentsline {subsection}{\numberline {1.6.}Neišnaudotos galimybės}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.}Dalykinės srities statinė stukrtūra}{7}
+\contentsline {section}{\numberline {2.}VIDINĖ VERSLO PROCESO ANALIZĖ}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.}Užduotys}{7}
+\contentsline {subsection}{\numberline {2.1.}Dalykinės srities statinė stukrtūra}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.}Užduočių vykdymo scenarijai}{9}
+\contentsline {subsection}{\numberline {2.2.}Užduotys}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.}Dalykinės srities dinaminė struktūra}{9}
+\contentsline {subsection}{\numberline {2.3.}Užduočių vykdymo scenarijai}{10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.}Dalykinės srities dinaminė struktūra}{10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.}Įgyvendinamumo ir naudos analizė}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.}Operacinis įgyvendinamumas}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.}Techninis įgyvendinamumas}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.}Ekonominis įgyvendinamumas}{12}
