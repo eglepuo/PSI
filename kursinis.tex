@@ -64,12 +64,17 @@ rodo, kaip procesai komunikuoja, galimus sistemos darbo atvejus.
 \tableofcontents
 
 \sectionnonum{ĮVADAS}
-Tikslas - sukurti socialinio tinklalalapio prototipą, kurį įgyvendinus būtų palengvinta universiteto bendruomenės komunikaciją.
-
-Temos aktualumas:
-Šiuo metu studentams dėstytojų skelbiama informacija yra išbarstyta internete, kurią surasti užima galybes laiko. Yra atskiras universiteto naujienų puslapis, kiekvienas dėstytojas turi savo asmeninį tinklalapį, atskiras elektroninis paštas. Tiek dėstytojui pasiekti studentus, tiek studentui dėstytoją yra komplikuota ir nepatogu.
-
-Siekiami rezultatai:
+\textbf{Tikslas}  - sukurti socialinio tinklalalapio prototipą, kurį įgyvendinus būtų palengvinta universiteto bendruomenės komunikaciją.\\
+\textbf{Temos aktualumas} \\
+Šiuo metu studentams dėstytojų skelbiama informacija yra išbarstyta internete, kurią surasti užima galybes laiko. Yra atskiras universiteto naujienų puslapis, kiekvienas dėstytojas turi savo asmeninį tinklalapį, atskiras elektroninis paštas. Tiek dėstytojui pasiekti studentus, tiek studentui dėstytoją yra komplikuota ir nepatogu.\\
+\textbf{Dalykinė sritis}\\
+ !!!!!!\\
+ \textbf{Probleminė sritis}\\
+Socialinis Vilniaus Universiteto tinklapis suteiktų galimybę greitai ir paprastai pasiekti šio universiteto dėstytojų puslapius, informaciją juose, susisiekti sus pačiais dėstytojais. Pagrindinis tinklalapio išskirtinumas - greitai ir patogiai pasiekiama informacija, viskas vienoje vietoje. Itin patogus valdymas dėstytojams.\\
+ \textbf{Naudoti dokumentai}\\
+ Dokumentas parengtas pagal kursinio darbo reikalavimus naudojant Latex programą ir jau sukurtus šablonus.\\
+ \textbf{Darbo pagrindas} \\ 
+Dokumentas parengtas kaip Programų sistemų inžinerijos I laboratorinis darbas.
 \newpage
 \sectionnonum{VERSLO PROCESO APRAŠAS}
 \newpage
@@ -341,8 +346,70 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id mauris eu lacu
 			\hline
 	\end{tabular}}
 \end{table}
+\newpage
 
-
-
-
+\section{SISTEMOS NAUDOJIMO SCENARIJUS}
+Šiame skyriuje aprašomas socialinio tinklalapio naudojimo scenarijus
+\subsection{Scenarijus}
+Šiame skyriuje pateikiami pagrindinių funkcijų modeliai, kurie parodo, kaip pagrindiniai sistemos agentai, šiuo atveju studentai, dėstytojai ir administratoriai, naudosis sistema. Tam naudojamos UML sekų diagramos.
+\subsubsection{Užduoties registruotis modelis}
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{img/uzdRegistruotis.png}
+\caption{Užduoties registruotis modelis}
+\label{fig:registruotis}
+\end{figure}
+\textbf{Užduotis: } užregistruoti naują naudotoją.\\
+\textbf{Verslo sistema: }\\
+\textbf{Tikslas: } pradėti naudotis socialiniu tinklalapiu.\\
+\textbf{Pirminis agentas: } naudotojas.\\
+\textbf{"Prieš" sąlyga: } naudotojas atsidaręs socialinį tinklalapį.\\
+\textbf{"Po" sąlyga: } naudotojas gali siųsti žinutes kitiems naudotojams, matyti tik naudotojams skirtą informaciją.\\
+\textbf{Scenarijus: } naudotojas, atsidaręs socialinį tinklalapį ir užėjęs į registracijos formą, turi įvesti savo duomenis: vardą, pavardę, e. pašto adresą, pasirinkti studentas ar dėstytojas. Pasirinkus dėstytoją dar įvesti specialų identifikacijos raktą gautą iš administratoriaus. Naudotojas registracijos formoje taip pat turi pažymėti, kad sutinka su tinklalapio sąlygomis. Jeigu įvesti duomenys neatitinka formato arba toks klientas jau yra registruotas, naudotojui parodomas klaidos praneši- mas. Jeigu registracija sėkminga, naudotojui yra pranešama apie sėkmingą registraciją ir jis yra nukreipiamas į pagrindinį sistemos puslapį.\\
+\subsubsection{Užduoties įrašyti naujieną modelis}
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{img/uzdNaujiena.png}
+\caption{Užduoties įrašyti naujieną modelis}
+\label{fig:rnaujiena}
+\end{figure}
+\textbf{Užduotis: } Įrašyti naujieną\\
+\textbf{Verslo sistema: }\\
+\textbf{Tikslas: } paskelbti aktualią naujieną.\\
+\textbf{Pirminis agentas: } dėstytojas.\\
+\textbf{"Prieš" sąlyga: } naudotojas yra prisijungęs tinklalapyje, dėstytojo aplinkoje.\\
+\textbf{"Po" sąlyga: } aktuali naujiena yra patalpinta tinklalapyje.\\
+\textbf{Scenarijus: } naudotojas, prisijungęs kaip dėstytojas, pasirenka naujienos sukūrimo puslapį ir gražintoje formoje suveda norimą paskelbti informaciją bei pasirenka, kam ši naujiena yra skirta(studentams, dėstytojams, visiems). Jeigu naujiena neatitinka formato ar yra tuščia, sistema įspėja dėstytoją ir leidžia pakeisti duomenis. Jeigu duomenys atitinka formatą, dėstytojas yra informuojamas apie sėkmingą naujienos patalpinimą pagrindiniame puslapyje.
+\subsubsection{Užduoties siųsti žinutę modelis}
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{img/uzdSiustiZinute.png}
+\caption{Užduoties siųsti žinutę modelis}
+\label{fig:zinute}
+\end{figure}
+\textbf{Užduotis: } studentui išsiųsti žinutę dėstytojui\\
+\textbf{Verslo sistema: }\\
+\textbf{Tikslas: } studento išsiųsta žinutė pasiekia dėstytoją\\
+\textbf{Pirminis agentas: } studentas\\
+\textbf{"Prieš" sąlyga: } naudotojas yra prisijungęs tinklalapyje, studento aplinkoje.\\
+\textbf{"Po" sąlyga: } studento žinutė yra išsiųsta\\
+\textbf{Scenarijus: } naudotojas, prisijungęs kaip studentas, pasirenka puslapį siųsti žinutę. Gražintoje formoje pasirenka dėstytoją(us), kuriam(iem) ši žinutė yra skirta. Užpildo formoje prašomus duomenis (tema, žinutė), prisega failus, jeigu reikia. Jeigu žinutė neatitinka formato, sistema įspėja studentą ir leidžia pakeisti duomenis. Jeigu bandomų pridėti failų napvyko prisegti, studentas įspėjamas. Jeigu žinutė atitinka formatą ir failai sėkmingai prisegti, studentas informuojamas, jog žinutė išsiųsta sėkmingai.
+\subsection{Sistemos teikiama nauda}
+Šiame skyriuje nagrinėjamos užduotys, kurias gali atlikti naudotojai. Tam pavaizduoti naudojama UML užduočių diagrama, kurioje agentai yra mūsų sistemos naudotojai - studentai ir dėstytojai.
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{img/socpslSistema.png}
+\caption{Užduočių diagrama}
+\label{fig:uzdDiagram}
+\end{figure}
+Sistemoje vykdomos pagrindinės užduotys: studentas gali peržiūrėti pasirinkto dėstytojo puslapius. Dėstytojams sudaroma galimybė pateikti aktualias naujienas, informaciją apie renginius, redaguoti savo asmeninius tinklalapius, kuriuose gali talpinti informaciją apie savo dėstomus dalykus bei kitą naudingą informaciją, kurią matys jų studentai. Tiek dėstytojai, tiek studentai gali gauti informaciją apie juos dominančius renginius, matyti aktualias naujienas, gauti bei siųsti žinutes.(\ref{fig:uzdDiagram} pav.).
+\subsection{Esama būklė}
+Šiuo metu visi komandos nariai turi asmeninius kompiuterius kuriais gali kurti ir testuoti sistemą. Nariai taip pat turi priėjimą prie Android ir iOS išmaniųjų telefonų, kurių prireiks tinklapio testavimui mobiliuose įrenginiuose. Grupė sudaryta iš keturių asmenų, kurie yra įgiję reikalingas žinias sistemos sukūrimui ir palaikymui.
+\subsection{Priemonės scenarijui įgyvendinti}
+Norint sukurti socialinį tinklalapį bus reikalinga:
+\begin{enumerate}
+	\item Domeno registracija
+	\item Serveris
+	\item SSL sertifikatas
+\end{enumerate}
 \end{document}
