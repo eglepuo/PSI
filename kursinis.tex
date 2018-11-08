@@ -57,6 +57,7 @@ Rašant šį dokumentą buvo naudojamasi:
 \tableofcontents
 
 \sectionnonum{ĮVADAS}
+PATAISYT!!!
 Šio dokumento tikslas - sukurti socialinio tinklalapio prototipą, kurį įgyvendinus būtų palengvinta universiteto bendruomenės komunikaciją.\\
 \textbf{Temos aktualumas} \\
 Šiuo metu studentams dėstytojų skelbiama informacija yra išbarstyta internete, kurią surasti užima galybes laiko. Yra atskiras universiteto naujienų puslapis, kiekvienas dėstytojas turi savo asmeninį tinklalapį, atskiras elektroninis paštas. Tiek dėstytojui pasiekti studentus, tiek studentui dėstytoją yra komplikuota ir nepatogu.\\
@@ -76,7 +77,7 @@ reikalingi pradėti verslą, išryškinamos kuriamo verslo grėsmės ir
 problemos, kuriami tinklalapio teikiami rezultatai ir išanalizuojama rinkoje esanti situacija. Nustačius rinkoje esančius ir potencialius konkurentus išanalizuojamos
 neišnaudotos galimybės bei įvertinama situacija.
 
-1, 2, 3 ir 4 lentelėse pateikiami įeigos, išeigos, reguliavimo ir įvaizdžio svarbiausi vertinimo kriteriai,
+\ref{ieigos}, \ref{iseigos}, \ref{ivaizdis} ir \ref{reguliavimas} lentelėse pateikiami įeigos, išeigos, reguliavimo ir įvaizdžio svarbiausi vertinimo kriteriai,
 jų matavimo vienetai. Nustatoma kritinė vertė, esama vertė ir siekiama vertė. Tai padeda
 nustatyti, ar tam tikras vertinimo kriterijus atitinka normas.
 \subsection{Įeigos}
@@ -87,7 +88,7 @@ nustatyti, ar tam tikras vertinimo kriterijus atitinka normas.
 	\item Duomenų bazė
 	\item Serveris
 \end{enumerate}
-\begin{table}[H]\footnotesize
+\begin{table}[H]
 	\centering
 	\caption{Įeigos}
 	\resizebox{\textwidth}{!}{\begin{tabular}{|c|c|c|c|} \hline
@@ -105,13 +106,14 @@ nustatyti, ar tam tikras vertinimo kriterijus atitinka normas.
 			Serveris & Vidutinis užklausos apdorojimo laikas sekundėmis & 1 & 5 \\
 			\hline
 	\end{tabular}}
+	\label{ieigos}
 \end{table}
 \subsection{Išeigos}
 \begin{enumerate}
 	\item Studentai, radę visą reikiamą informaciją
 	\item Dėstytojai, pateikę visą norimą informaciją
 \end{enumerate}
-\begin{table}[H]\footnotesize
+\begin{table}[H]
 	\centering
 	\caption{Išeigos}
 	\resizebox{\textwidth}{!}{\begin{tabular}{|c|c|c|c|} \hline
@@ -122,13 +124,14 @@ nustatyti, ar tam tikras vertinimo kriterijus atitinka normas.
 			Dėstytojai, pateikę visą norimą informaciją & Kiekis per mėnesį \% & 100 & 50 \\
 			\hline
 	\end{tabular}}
+	\label{iseigos}
 \end{table}
 	\subsection{Įvaizdis}
 \begin{enumerate}
 	\item Dėstytojų bei studentų atsiliepimai
 	\item Sistemos žinomumas
 \end{enumerate}
-\begin{table}[H]\footnotesize
+\begin{table}[H]
 	\centering
 	\caption{Įvaizdis}
 	\resizebox{\textwidth}{!}{\begin{tabular}{|c|c|c|c|} \hline
@@ -139,13 +142,14 @@ nustatyti, ar tam tikras vertinimo kriterijus atitinka normas.
 			Sistemos žinomumas & Vilniaus universiteto studentų \% žinančių šį tinklalapį & 100 & 50 \\
 			\hline
 	\end{tabular}}
+	\label{ivaizdis}
 \end{table}
 	\subsection{Reguliavimas}
 \begin{enumerate}
 	\item Asmens duomenų teisinės apsaugos įstatymas
 	\item Darbo kodeksas
 \end{enumerate}
-\begin{table}[H]\footnotesize
+\begin{table}[H]
 	\centering
 	\caption{Įvaizdis}
 	\resizebox{\textwidth}{!}{\begin{tabular}{|c|c|c|c|} \hline
@@ -156,6 +160,7 @@ nustatyti, ar tam tikras vertinimo kriterijus atitinka normas.
 			Darbo kodeksas & Viršytas darbo laikas (kartais per metus) & 0 & 0 \\
 			\hline
 	\end{tabular}}
+	\label{reguliavimas}
 \end{table}
 \subsection{Grėsmės}
 Kuriamas verslas yra priklausomas nuo dviejų pagrindinių įvesčių - dėstytojų ir studentų. Jų skaičius ir aktyvumas lemia kuriamos programos sėkmę. Rinkoje jau egzistuoja nemažai socialinių tinklų, kuriuos naudoja dauguma studentų (Facebook, Instagram, Linkedin, Twitter ir t.t.) be to dauguma dėstytojų yra ipratę skelbti visą informaciją savo sukurtuose puslapiuose arba bando integruoti informaciją į Vilniaus universiteto virtualią mokymosi aplinką, todėl konkurencija yra gana didelė. Kuo daugiau dėstytojų pradės naudoti mūsų sukurtą platformą, tuo daugiau studentų taip pat privalės naudoti šį tinklalapį, nes tik ten galės rasti jiems reikiamą informaciją. Sėkmingam kuriamo verslo proceso egzistavimui turi įtakos reitingų ir atsiliepimų skaičius bei kokybė, tačiau visų pirma reikia užtikrinti, jog dauguma studentų bei dėstytojų išbandytų mūsų sukurtą sistemą bei ją įvertintų.
@@ -310,7 +315,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id mauris eu lacu
 
 \textbf{Išlaidos}
 
-\begin{table}[H]\footnotesize
+\begin{table}[H]
 	\centering
 	\caption{Išlaidos reikalingos sistemos sukūrimui ir palaikymui}
 	\resizebox{\textwidth}{!}{\begin{tabular}{|c|c|c|c|} \hline

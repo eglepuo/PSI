@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6500 64-bit) (preloaded format=xelatex 2018.10.1)  8 NOV 2018 13:55
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6500 64-bit) (preloaded format=xelatex 2018.10.1)  8 NOV 2018 14:31
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1260,7 +1260,7 @@ latn;language=DFLT;mapping=tex-text;!
 Missing character: There is no ̨ in font [texgyretermes-regular.otf]/OT:script=
 latn;language=DFLT;mapping=tex-text;!
  [4] [5] [6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
 
@@ -1270,22 +1270,22 @@ File: img/dalykine.png Graphic file (type bmp)
 File: img/DVS.png Graphic file (type bmp)
 <img/DVS.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--203
+Underfull \hbox (badness 10000) in paragraph at lines 198--208
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 204--213
+Underfull \hbox (badness 10000) in paragraph at lines 209--218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--223
+Underfull \hbox (badness 10000) in paragraph at lines 219--228
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--234
+Underfull \hbox (badness 10000) in paragraph at lines 230--239
 
  []
 
@@ -1298,19 +1298,19 @@ File: img/studentas.png Graphic file (type bmp)
 File: img/destytojas.png Graphic file (type bmp)
 <img/destytojas.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--269
+Underfull \hbox (badness 10000) in paragraph at lines 267--274
 
  []
 
 File: img/administratorius.png Graphic file (type bmp)
 <img/administratorius.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--277
+Underfull \hbox (badness 10000) in paragraph at lines 275--282
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
 
  []
 
@@ -1330,7 +1330,7 @@ latn;language=DFLT;mapping=tex-text;!
 Missing character: There is no ̨ in font [texgyretermes-regular.otf]/OT:script=
 latn;language=DFLT;mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 338--345
+Underfull \hbox (badness 10000) in paragraph at lines 343--350
 
  []
 
@@ -1382,11 +1382,11 @@ Package logreq Info: Writing requests to 'kursinis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23769 strings out of 427835
- 460935 string characters out of 3152454
+ 23760 strings out of 427835
+ 460772 string characters out of 3152454
  956853 words of memory out of 3000000
- 27465 multiletter control sequences out of 15000+200000
- 544767 words of font info for 95 fonts, out of 3000000 for 9000
+ 27462 multiletter control sequences out of 15000+200000
+ 543198 words of font info for 88 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  67i,12n,96p,10542b,3426s stack positions out of 5000i,500n,10000p,200000b,50000s
 
