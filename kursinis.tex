@@ -23,7 +23,7 @@
 \university{Vilniaus universitetas}
 \faculty{Matematikos ir informatikos fakultetas}
 \department{Programų sistemų katedra}
-\papertype{Programų sistemų inžinerijos I laboratorinis darbas}
+\papertype{Programų sistemų inžinerijos III laboratorinis darbas}
 \title{Socialinis Vilniaus universiteto tinklalapis}
 \titleineng{SocialVU}
 \status{2 kurso 4 grupės studentai}
@@ -44,39 +44,31 @@
 \cleardoublepage\pagenumbering{arabic}
 \setcounter{page}{2}
 \sectionnonum{ANOTACIJA}
-Šis dokumentas sudarytas iš trijų dalių. Pirmoje dalyje pateikiama dalykinės srities anali-
-zė. Išorinėje verslo proceso analizėje identifikuojamos pagrindinės grėsmės ir galimybės. Vidinėje
-verslo proceso analizėje nustatomos verslo stiprybės ir silpnybės, kylančios iš paties verslo proceso.
-Dokumente taip pat pateikiamos verslo tobulinimo strategijos, nagrinėjamos galimybės įgyvendinti
-sistemą tiek technininiu požiūriu, tiek ir ekonominiu, pagrindžiant, ar projektas atsipirks. Antroje
-dalyje detaliai išdėstomi pagrindiniai socialinio tinklo valdymo scenarijai. Pateikiama
-vartotojo interfeiso, funkcinių ir nefunkcinių programų sistemos reikalavimų specifikacija, kuria
-siekiama užtikrinti kuriamos programinės įrangos funkcionalumą bei poreikių atitikimą. Trečioje
-dalyje aprašoma kuriamos sistemos architektūra naudojant UML 4+1 požiūrių rinkinį. Žvelgiama
-į sistemą 5 skirtingais požiūriais. Loginis pjūvis skirtas parodyti sistemos funkcionalumą, aprašyti
-santykius tarp esybių. Užduočių pjūvyje pateiksime, kokias užduotis gali įgyvendinti vartotojas,
-kokie jų įgyvendimo scenarijai. Kūrimo pjūvyje pateikiama, kaip susiję atskiri komponentai. Fizi-
-niame pjūvyje parodoma, kaip sistema išdėstoma tinkle, kaip ji diegiama, kokia įranga naudojama.
-Procesų pjūvis pateikia dinaminį sistemos modelį: paaiškina sistemoje vykstančius procesus, pa-
-rodo, kaip procesai komunikuoja, galimus sistemos darbo atvejus.
+Šiame dokumente pateikiama dalykinės srities analizė. Išorinėje verslo proceso analizėje identifikuojamos pagrindinės grėsmės ir galimybės. Vidinėje verslo proceso analizėje nustatomos verslo stiprybės ir silpnybės, kylančios iš paties verslo proceso. Be to dokumente pateikiamos verslo tobulinimo strategijos, nagrinėjamos galimybės įgyvendinti sistemą tiek techniniu tiek ir ekonominiu požiūriu.\\
+Rašant šį dokumentą buvo naudojamasi:
+\begin{enumerate}
+	\item dr. Vytauto Valaičio internetinis puslapiu (https://klevas.mif.vu.lt/~valaitis/) 
+	\item doc., dr. Karolio Petrausko iternetiniu puslapiu (http://klevas.mif.vu.lt/~karolis/) 
+	\item https://www.magicdraw.com/files/manuals/MagicDraw Tutorials.pdf
+	\item Latex programa ir jau sukurtais šablonais
+\end{enumerate}
 \newpage
 %TURINYS
 \tableofcontents
 
 \sectionnonum{ĮVADAS}
-\textbf{Tikslas}  - sukurti socialinio tinklalalapio prototipą, kurį įgyvendinus būtų palengvinta universiteto bendruomenės komunikaciją.\\
+Šio dokumento tikslas - sukurti socialinio tinklalapio prototipą, kurį įgyvendinus būtų palengvinta universiteto bendruomenės komunikaciją.\\
 \textbf{Temos aktualumas} \\
 Šiuo metu studentams dėstytojų skelbiama informacija yra išbarstyta internete, kurią surasti užima galybes laiko. Yra atskiras universiteto naujienų puslapis, kiekvienas dėstytojas turi savo asmeninį tinklalapį, atskiras elektroninis paštas. Tiek dėstytojui pasiekti studentus, tiek studentui dėstytoją yra komplikuota ir nepatogu.\\
 \textbf{Dalykinė sritis}\\
- !!!!!!\\
+Socialinis Vilniaus Universiteto tinklapis.\\
  \textbf{Probleminė sritis}\\
 Socialinis Vilniaus Universiteto tinklapis suteiktų galimybę greitai ir paprastai pasiekti šio universiteto dėstytojų puslapius, informaciją juose, susisiekti sus pačiais dėstytojais. Pagrindinis tinklalapio išskirtinumas - greitai ir patogiai pasiekiama informacija, viskas vienoje vietoje. Itin patogus valdymas dėstytojams.\\
- \textbf{Naudoti dokumentai}\\
- Dokumentas parengtas pagal kursinio darbo reikalavimus naudojant Latex programą ir jau sukurtus šablonus.\\
  \textbf{Darbo pagrindas} \\ 
-Dokumentas parengtas kaip Programų sistemų inžinerijos I laboratorinis darbas.
+Dokumentas parengtas kaip Programų sistemų inžinerijos III laboratorinis darbas.
 \newpage
 \sectionnonum{VERSLO PROCESO APRAŠAS}
+KASPARAS
 \newpage
 \section{IŠORINĖ VERSLO PROCESO ANALIZĖ}
 Išorinė analizės metu išsiaiškinami ištekliai
@@ -284,23 +276,7 @@ Administratorius: \\
 \label{fig:administratoriu}
 \end{figure}
 \ref{fig:administratoriu} pav. Prisijungęs administratorius, tai žmogus, kuris atsakingas už bendrą socialinio tinklo turinį, į kurį neįeina dėstytojų puslapių redagavimas. Administratorius gali kurti bei redaguoti tik naujienų, D.U.K ir renginių skiltis.\\
-\newpage
-\section{IŠORINĖS IR VIDINĖS ANALIZĖS REZULTATAI}
-Išorinės ir vidinės analizės rezultatai pateikiami pasinaudojant SSGG (SWOT) lentele. Lentelėje pateikiamos verslo stiprybės, silpnybės, jam kylančios grėsmės ir atsiradusios neišnaudotos galimybės.
-\begin{table}[H]\footnotesize
-	\centering
-	\caption{Analizės rezultatai SSGG lentelės pavidalu.}
-	\resizebox{\textwidth}{!}{\begin{tabular}{|l|l|} \hline
-			STIPRYBĖS & SILPNYBĖS \\
-			\hline
-			aa & aa \\
-			\hline
-			GALIMYBĖS & GRĖSMĖS \\
-			\hline
-			aa & aa \\
-			\hline
-	\end{tabular}}
-\end{table}
+
 \newpage
 \section{ĮGYVENDINAMUMO IR NAUDOS ANALIZĖ}
 Šiame skyriuje pateikiama informacija, kuri padeda nustatyti, ar darbų valdymo sistemą
@@ -413,3 +389,4 @@ Norint sukurti socialinį tinklalapį bus reikalinga:
 	\item SSL sertifikatas
 \end{enumerate}
 \end{document}
+\sectionnonum{REZULTATAI}
