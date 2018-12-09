@@ -58,8 +58,8 @@ Rašant šį dokumentą buvo naudojamasi:
 \tableofcontents
 
 \sectionnonum{ĮVADAS}
-PATAISYT!!!
-Šio dokumento tikslas - sukurti socialinio tinklalapio prototipą, kurį įgyvendinus būtų palengvinta universiteto bendruomenės komunikaciją.\\
+PATAISYT?
+Šio dokumento tikslas - pateikti verslo proceso aprašą, atlikti išorinę bei vidinę verslo proceso analizę, įgyvendinamumo ir naudos analizę bei pateikti sistemos naudojimo scenarijus kuriamam universiteto socialiniam tinklalapiui, kuris palengvintų universiteto bendruomenės komunikaciją.\\
 \textbf{Temos aktualumas} \\
 Šiuo metu studentams dėstytojų skelbiama informacija yra išbarstyta internete, kurią surasti užima galybes laiko. Yra atskiras universiteto naujienų puslapis, kiekvienas dėstytojas turi savo asmeninį tinklalapį, atskiras elektroninis paštas. Tiek dėstytojui pasiekti studentus, tiek studentui dėstytoją yra komplikuota ir nepatogu.\\
 \textbf{Dalykinė sritis}\\
@@ -70,7 +70,15 @@ Socialinis Vilniaus Universiteto tinklapis suteiktų galimybę greitai ir papras
 Dokumentas parengtas kaip Programų sistemų inžinerijos III laboratorinis darbas.
 \newpage
 \sectionnonum{VERSLO PROCESO APRAŠAS}
-KASPARAS
+
+Ši sistema turi dviejų tipų vartotojus - studentus ir dėstytojus. Visų pirma, atsidarius sistemos tinklalapį vartotojas privalo užsiregistruoti (jei to nėra padaręs anksčiau). Vėliau prisijungus prie sistemos vartotojas yra nukreipiamas į pagrindinį sistemos puslapį.
+
+Studentai pagrindiniame sistemos puslapyje gali matyti universiteto naujienas, artėjančius renginius. Taip pat čia yra prieinamos nuorodos į kitas esmines sistemos dalis - dėstytojų puslapius, konspektų dalinimosi platformą, D.U.K. skiltį bei žinučių sistemą. Kiekvienas studentas turi prieigą prie savo dėstytojų asmeninių puslapių. Čia galima rasti informaciją apie dėstomus dalykus, jų medžiagą, artėjančius atsiskaitymus bei kitus dalykus. Žinučių sistemoje studentas įgalinamas komunikuoti tiek su kitais studentais, tiek su dėstytojais, taip pat žinučių pavidalu gaunami priminimai apie artėjančius renginius ar atsiskaitymus. Konspektų dalinimosi platformoje studentas gali peržiūrėti kitų studentų įkeltus konspektus, juos įsigyti. Taip pat studentas gali peržiūrėti jau įsigytus konspektus, juos peržiūrėti naršyklėje arba atsisiųsti į savo kompiuterį ar mobilųjį įrenginį. Galiausiai, studentas gali į sistemą patalpinti ir savuosius konspektus, nurodydamas konspektų paskirtį bei jų kainą. D.U.K. skiltyje studentai gali rasti naudingą informaciją įvairia tematika, taip pat atsakymus į didžiąją dalį iškylančių klausimų.
+
+Dėstytojai pagrindiniame sistemos puslapyje taip pat gali matyti universiteto naujienas, artėjančius renginius. Čia jiems yra prieinamos ir nuorodos į esmines, dėstytojams skirtas, sistemos dalis - naujienų, renginių bei D.U.K. skilties redagavimą, žinučių sistemą bei asmeninio puslapio administravimo erdvę. Naujienų redagavimo skiltyje dėstytojai gali patalpinti informaciją apie įvairias aktualijas, taip pat redaguoti senesnius įrašus, juos ištrinti. Renginių redagavimo skiltyje dėstytojai gali kurti naujus renginius, siųsti kvietimus žinučių pavidalu, peržiūrėti senesnius renginius, juos ištrinti. D.U.K. skilties redagavimo aplinkoje dėstytojai gali peržiūrėti esamus klausimus ir atsakymus, redaguoti jų turinį, pridėti naujus klausimus. Žinučių sistemoje dėstyojai gali matyti gautas bei išsiųstas žinutes, gali siųsti žinutes studetnams, kitiems dėstytojams, čia gauna priminimus apie artėjančius svarbius įvykius (renginius, atsiskaitymus). Asmeninio puslapio administravimo erdvėje dėstytojai gali talpinti informaciją apie savo dėstomus dalykus, šią informaciją paslėpti nuo studentų ar padaryti ją prieinamą tik šiuo metu tam tikrą dėstomą dalyką turintiems studentams. Taip pat dėstytojas gali kurti papidlomus puslapius, prieinamus iš pagrindinio dėstytojo asmeninio puslapio.
+
+Visą sistemos darbą prižiūri sistemos administratorius. Jis atsakingas už vartotojų registracijos patvirtinimą, vartotojų pašalinimą ar pridėjimą.
+
 \newpage
 \section{IŠORINĖ VERSLO PROCESO ANALIZĖ}
 Išorinė analizės metu išsiaiškinami ištekliai
@@ -346,7 +354,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id mauris eu lacu
 \textbf{Pirminis agentas: } naudotojas.\\
 \textbf{"Prieš" sąlyga: } naudotojas atsidaręs socialinį tinklalapį.\\
 \textbf{"Po" sąlyga: } naudotojas gali siųsti žinutes kitiems naudotojams, matyti tik naudotojams skirtą informaciją.\\
-\textbf{Scenarijus: } naudotojas, atsidaręs socialinį tinklalapį ir užėjęs į registracijos formą, turi įvesti savo duomenis: vardą, pavardę, e. pašto adresą, pasirinkti studentas ar dėstytojas. Pasirinkus dėstytoją dar įvesti specialų identifikacijos raktą gautą iš administratoriaus. Naudotojas registracijos formoje taip pat turi pažymėti, kad sutinka su tinklalapio sąlygomis. Jeigu įvesti duomenys neatitinka formato arba toks klientas jau yra registruotas, naudotojui parodomas klaidos praneši- mas. Jeigu registracija sėkminga, naudotojui yra pranešama apie sėkmingą registraciją ir jis yra nukreipiamas į pagrindinį sistemos puslapį.\\
+\textbf{Scenarijus: } naudotojas, atsidaręs socialinį tinklalapį ir užėjęs į registracijos formą, turi įvesti savo duomenis: vardą, pavardę, e. pašto adresą, pasirinkti studentas ar dėstytojas. Pasirinkus dėstytoją dar įvesti specialų identifikacijos raktą gautą iš administratoriaus. Naudotojas registracijos formoje taip pat turi pažymėti, kad sutinka su tinklalapio sąlygomis. Jeigu įvesti duomenys neatitinka formato arba toks klientas jau yra registruotas, naudotojui parodomas klaidos pranešimas. Jeigu registracija sėkminga, naudotojui yra pranešama apie sėkmingą registraciją ir jis yra nukreipiamas į pagrindinį sistemos puslapį.\\
 \subsubsection{Užduoties įrašyti naujieną modelis}
 \begin{figure}[H]
 \centering
