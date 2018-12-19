@@ -6,50 +6,50 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{ĮVADAS}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{VERSLO PROCESO APRAŠAS}{5}
+\contentsline {section}{\numberline {1.}VERSLO PROCESO APRAŠAS}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.}IŠORINĖ VERSLO PROCESO ANALIZĖ}{6}
+\contentsline {section}{\numberline {2.}IŠORINĖ VERSLO PROCESO ANALIZĖ}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.}Įeigos}{6}
+\contentsline {subsection}{\numberline {2.1.}Įeigos}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.}Išeigos}{6}
+\contentsline {subsection}{\numberline {2.2.}Išeigos}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.}Įvaizdis}{6}
+\contentsline {subsection}{\numberline {2.3.}Įvaizdis}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.}Reguliavimas}{7}
+\contentsline {subsection}{\numberline {2.4.}Reguliavimas}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.5.}Grėsmės}{7}
+\contentsline {subsection}{\numberline {2.5.}Grėsmės}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.6.}Neišnaudotos galimybės}{7}
+\contentsline {subsection}{\numberline {2.6.}Neišnaudotos galimybės}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.}VIDINĖ VERSLO PROCESO ANALIZĖ}{9}
+\contentsline {section}{\numberline {3.}VIDINĖ VERSLO PROCESO ANALIZĖ}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.}Sąvokos}{9}
+\contentsline {subsection}{\numberline {3.1.}Sąvokos}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.}Dalykinės srities statinė struktūra}{9}
+\contentsline {subsection}{\numberline {3.2.}Dalykinės srities statinė struktūra}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.}Užduotys}{11}
+\contentsline {subsection}{\numberline {3.3.}Užduotys}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.}Užduočių vykdymo scenarijai}{12}
+\contentsline {subsection}{\numberline {3.4.}Užduočių vykdymo scenarijai}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.}Dalykinės srities dinaminė struktūra}{13}
+\contentsline {subsection}{\numberline {3.5.}Dalykinės srities dinaminė struktūra}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.}ĮGYVENDINAMUMO IR NAUDOS ANALIZĖ}{16}
+\contentsline {section}{\numberline {4.}ĮGYVENDINAMUMO IR NAUDOS ANALIZĖ}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.}Operacinis įgyvendinamumas}{16}
+\contentsline {subsection}{\numberline {4.1.}Operacinis įgyvendinamumas}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.}Techninis įgyvendinamumas}{16}
+\contentsline {subsection}{\numberline {4.2.}Techninis įgyvendinamumas}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.}Ekonominis įgyvendinamumas}{16}
+\contentsline {subsection}{\numberline {4.3.}Ekonominis įgyvendinamumas}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.}Juridinis įgyvendinamumas}{17}
+\contentsline {subsection}{\numberline {4.4.}Juridinis įgyvendinamumas}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.}SISTEMOS NAUDOJIMO SCENARIJUS}{18}
+\contentsline {section}{\numberline {5.}SISTEMOS NAUDOJIMO SCENARIJUS}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.}Scenarijus}{18}
+\contentsline {subsection}{\numberline {5.1.}Scenarijus}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.}Sistemos teikiama nauda}{20}
+\contentsline {subsection}{\numberline {5.2.}Sistemos teikiama nauda}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.}Esama būklė}{21}
+\contentsline {subsection}{\numberline {5.3.}Esama būklė}{21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.}Priemonės scenarijui įgyvendinti}{21}
+\contentsline {subsection}{\numberline {5.4.}Priemonės scenarijui įgyvendinti}{21}
