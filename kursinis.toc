@@ -53,3 +53,5 @@
 \contentsline {subsection}{\numberline {5.3.}Esama būklė}{21}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.4.}Priemonės scenarijui įgyvendinti}{21}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{REZULTATAI}{22}
