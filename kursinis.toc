@@ -52,6 +52,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.4.}Priemonės scenarijui įgyvendinti}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Sąvokos}{21}
+\contentsline {section}{SĄVOKOS}{21}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{REZULTATAI}{22}
