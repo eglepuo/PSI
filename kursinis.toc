@@ -24,34 +24,34 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.}VIDINĖ VERSLO PROCESO ANALIZĖ}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.}Sąvokos}{9}
+\contentsline {subsection}{\numberline {3.1.}Dalykinės srities statinė struktūra}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.}Dalykinės srities statinė struktūra}{9}
+\contentsline {subsection}{\numberline {3.2.}Užduotys}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.}Užduotys}{11}
+\contentsline {subsection}{\numberline {3.3.}Užduočių vykdymo scenarijai}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.}Užduočių vykdymo scenarijai}{12}
+\contentsline {subsection}{\numberline {3.4.}Dalykinės srities dinaminė struktūra}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.}Dalykinės srities dinaminė struktūra}{13}
+\contentsline {section}{\numberline {4.}ĮGYVENDINAMUMO IR NAUDOS ANALIZĖ}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.}ĮGYVENDINAMUMO IR NAUDOS ANALIZĖ}{16}
+\contentsline {subsection}{\numberline {4.1.}Operacinis įgyvendinamumas}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.}Operacinis įgyvendinamumas}{16}
+\contentsline {subsection}{\numberline {4.2.}Techninis įgyvendinamumas}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.}Techninis įgyvendinamumas}{16}
+\contentsline {subsection}{\numberline {4.3.}Ekonominis įgyvendinamumas}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.}Ekonominis įgyvendinamumas}{16}
+\contentsline {subsection}{\numberline {4.4.}Juridinis įgyvendinamumas}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.}Juridinis įgyvendinamumas}{17}
+\contentsline {section}{\numberline {5.}SISTEMOS NAUDOJIMO SCENARIJUS}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.}SISTEMOS NAUDOJIMO SCENARIJUS}{18}
+\contentsline {subsection}{\numberline {5.1.}Scenarijus}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.}Scenarijus}{18}
+\contentsline {subsection}{\numberline {5.2.}Sistemos teikiama nauda}{19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.}Sistemos teikiama nauda}{20}
+\contentsline {subsection}{\numberline {5.3.}Esama būklė}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.}Esama būklė}{21}
+\contentsline {subsection}{\numberline {5.4.}Priemonės scenarijui įgyvendinti}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.}Priemonės scenarijui įgyvendinti}{21}
+\contentsline {section}{Sąvokos}{21}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{REZULTATAI}{22}
