@@ -102,9 +102,9 @@ nustatyti, ar tam tikras vertinimo kriterijus atitinka normas.
 	\resizebox{\textwidth}{!}{\begin{tabular}{|c|c|c|c|} \hline
 			Vertinimo kriterijus & Vertinimo matas & Siekiama vertė & Kritinė vertė \\
 			\hline
-			Studentai & Kiekis studentų, naudojančių socialVU tinklalapį & 21281 & 10000 \\
+			Studentai & Kiekis studentų, naudojančių „SocialVU“ tinklapį & 21281 & 10000 \\
 			\hline
-			Dėstytojai & Kiekis dėstytojų, naudojančių socialVU tinklalapį & 2890 & 1500 \\
+			Dėstytojai & Kiekis dėstytojų, naudojančių „SocialVU“ tinklapį & 2890 & 1500 \\
 			\hline
 			Administratorius & Pašalintų naudotojų skaičius per
 			mėnesį & 0 & 30 \\
@@ -175,17 +175,15 @@ Kuriamas verslas yra priklausomas nuo dviejų pagrindinių įvesčių - dėstyto
 \subsection{Neišnaudotos galimybės}
 Rinkoje jau egzistuojančios Vilniaus universiteto platformos turi trūkumų (dauguma dėstytojų skelbia informaciją skirtinguose puslapiuose, todėl studentams sunku juos surasti, ne visada yra galimybė susisiekti su dėstytojais, dauguma konspektų nėra lengvai pasiekiami visiems studentams), todėl kuriama sistema gali juos išnaudoti ir pasiūlyti studentams visą reikiamą informaciją rasti vienoje vietoje. Sistema suteiks galimybę išsiųsti laišką dėstytojui bei rasti visą paskelbtą dėstytojo informaciją vienoje vietoje, studentai galės matyti naujausią informaciją bei terminus iki kada turi atlikti tam tikras užduotis. Be to vienoje vietoje galės rasti visus reikiamus konpektus bei pasidalinti turimais konspektais su kitais studentais ir taip padėti mokytis kitiems.
 \newpage
-\newpage
 \section{VIDINĖ VERSLO PROCESO ANALIZĖ}
-Toliau pateikiama keliais aspektais atlikta vidinė verslo proceso analizė, kuria siekiama
-nustatyti nagrinėjamo verslo stiprybes ir silpnybes, kylančias iš verslo proceso.
+Toliau pateikiama keliais aspektais atlikta vidinė verslo proceso analizė, kuria siekiama nustatyti nagrinėjamo verslo stiprybes ir silpnybes.
 
 \subsection{Sąvokos}
 Šiame skyriuje pateikiami specifiniai mūsų projekte naudotų žodžių paaiškinimai. \\
 \textbf{Sistema} – fakulteto vidinis socialinis tinklas, dokumente vadinamas „SocialVU“. \\
 \textbf{Studentas} – vartotojas, kuris turim ribotas galimybes turinio valdymo atžvilgiu.\\
 \textbf{Dėstytojas} – vartotojas, kuris turi galimybę redaguoti visą socialinio tinklo turinį.\\
-\textbf{Administratorius} – vartotojas, kuris turi galimybę redaguoti visą socialinio tinklo turinį, išskyrus dėstytojus.
+\textbf{Administratorius} – vartotojas, kuris turi galimybę redaguoti visą socialinio tinklo turinį, išskyrus dėstytojo puslapį.
 
 \subsection{Dalykinės srities statinė struktūra}
  Toliau pateikiama dalykinės srities statinės struktūros UML diagrama. Joje matomos pagrindinės esybės bei jų tarpusavio sąveika. Klientai yra trijų tipų: studentai, dėstytojai ir administratoriai (dėstytojai bei administratoriai skiriasi turinio redagavimo teisėmis). Studentams, administratoriams ir dėstytojams registruotis nereikia, nes visa vartotojų duomenų bazė bus imama iš bendros VU vartotojų duomenų bazės. Vartotojui tereikia autentifikuoti save - tokiu būdu, priklausomai nuo užimamų pareigų, jam bus suteiktos teisės prie numatyto turinio. Studentai gali tik skaityti tokius puslapius kaip "Dėstytojai", "Naujienos", "Renginiai", "D.U.K", "Konspektai". Tuo tarpu dėstytojai skiltyje "Naujienos" gali parašyti naujieną. Be to, jiems suteikta prieiga prie jų profilio, kur turi teisę redaguoti savo asmeninį puslapį, siųsti bei gauti žinutes, pridėti organizuojamą renginį. Administratoriumi gali būti fakulteto paskirtas žmogus, atsakingas už tikslingo turinio formavimą vidiniame socialiniame tinkle arba VU Studentų atstovybės narys, kuris turi teisę redaguoti visą turinį. Tačiau joks administratorius negali redaguoti dėstytojo sukurto turinio.\\
@@ -377,8 +375,8 @@ Metinės sistemos palaikymo išlaidos turėtų sudaryti 26208€. Atsižvelgiant
 \setlength{\parindent}{0pt}\textbf{Užduotis: } Įrašyti naujieną\\
 \textbf{Tikslas: } paskelbti aktualią naujieną.\\
 \textbf{Pirminis agentas: } dėstytojas.\\
-\textbf{"Prieš" sąlyga: } naudotojas yra prisijungęs tinklalapyje, dėstytojo aplinkoje.\\
-\textbf{"Po" sąlyga: } aktuali naujiena yra patalpinta tinklalapyje.\\
+\textbf{„Prieš“ sąlyga: } naudotojas yra prisijungęs tinklalapyje, dėstytojo aplinkoje.\\
+\textbf{„Po“ sąlyga: } aktuali naujiena yra patalpinta tinklalapyje.\\
 \textbf{Scenarijus: } naudotojas, prisijungęs kaip dėstytojas, pasirenka naujienos sukūrimo puslapį ir gražintoje formoje suveda norimą paskelbti informaciją bei pasirenka, kam ši naujiena yra skirta(studentams, dėstytojams, visiems). Jeigu naujiena neatitinka formato ar yra tuščia, sistema įspėja dėstytoją ir leidžia pakeisti duomenis. Jeigu duomenys atitinka formatą, dėstytojas yra informuojamas apie sėkmingą naujienos patalpinimą pagrindiniame puslapyje.
 \begin{figure}[H]
 \centering
@@ -389,8 +387,8 @@ Metinės sistemos palaikymo išlaidos turėtų sudaryti 26208€. Atsižvelgiant
 \textbf{Užduotis: } studentui išsiųsti žinutę dėstytojui\\
 \textbf{Tikslas: } studento išsiųsta žinutė pasiekia dėstytoją\\
 \textbf{Pirminis agentas: } studentas\\
-\textbf{"Prieš" sąlyga: } naudotojas yra prisijungęs tinklalapyje, studento aplinkoje.\\
-\textbf{"Po" sąlyga: } studento žinutė yra išsiųsta\\
+\textbf{„Prieš“ sąlyga: } naudotojas yra prisijungęs tinklalapyje, studento aplinkoje.\\
+\textbf{„Po“ sąlyga: } studento žinutė yra išsiųsta\\
 \textbf{Scenarijus: } naudotojas, prisijungęs kaip studentas, pasirenka puslapį siųsti žinutę. Gražintoje formoje pasirenka dėstytoją(us), kuriam(iem) ši žinutė yra skirta. Užpildo formoje prašomus duomenis (tema, žinutė), prisega failus, jeigu reikia. Jeigu žinutė neatitinka formato, sistema įspėja studentą ir leidžia pakeisti duomenis. Jeigu bandomų pridėti failų napavyko prisegti, studentas įspėjamas. Jeigu žinutė atitinka formatą ir failai sėkmingai prisegti, studentas informuojamas, jog žinutė išsiųsta sėkmingai.
 \begin{figure}[H]
 \centering
@@ -401,8 +399,8 @@ Metinės sistemos palaikymo išlaidos turėtų sudaryti 26208€. Atsižvelgiant
 \textbf{Užduotis: } studentui įkelti konspektą\\
 \textbf{Tikslas: } studento įkeltas konspektas bus prieinamas kitiems studentams\\
 \textbf{Pirminis agentas: } studentas\\
-\textbf{"Prieš" sąlyga: } naudotojas yra prisijungęs tinklalapyje, studento aplinkoje.\\
-\textbf{"Po" sąlyga: } studento konspketas yra sėkmingai įkeltas\\
+\textbf{„Prieš“ sąlyga: } naudotojas yra prisijungęs tinklalapyje, studento aplinkoje.\\
+\textbf{„Po“ sąlyga: } studento konspketas yra sėkmingai įkeltas\\
 \textbf{Scenarijus: } naudotojas, prisijungęs kaip studentas, pasirenka įjelti konspektą. Gražintoje formoje užpildo duomenis apie konspektą, prisega atitinkamą failą. Užpildo formoje prašomus duomenis (tema, dėstytojas, ...), prisega failą(-us). Jeigu duomenys/priedas neatitinka formato, sistema įspėja studentą ir leidžia pakeisti duomenis. Jeigu bandomų pridėti failų napavyko įkelti, studentas įspėjamas. Jeigu duomenys atitinka formatą ir failai sėkmingai prisegti, studentas informuojamas, jog konspektas įkeltas sėkmingai.
 \endgroup
 \subsection{Sistemos teikiama nauda}

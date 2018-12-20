@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6500 64-bit) (preloaded format=xelatex 2018.10.1)  20 DEC 2018 17:01
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6500 64-bit) (preloaded format=xelatex 2018.10.1)  20 DEC 2018 17:10
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1295,7 +1295,7 @@ Overfull \hbox (19.5472pt too wide) in paragraph at lines 163--172
  []
 
 [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 191--192
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
 
  []
 
@@ -1305,22 +1305,22 @@ File: img/dalykine.png Graphic file (type bmp)
 File: img/DVS.png Graphic file (type bmp)
 <img/DVS.png>
  [10]
-Underfull \hbox (badness 10000) in paragraph at lines 207--257
+Underfull \hbox (badness 10000) in paragraph at lines 205--255
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--257
+Underfull \hbox (badness 10000) in paragraph at lines 205--255
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--257
+Underfull \hbox (badness 10000) in paragraph at lines 205--255
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--257
+Underfull \hbox (badness 10000) in paragraph at lines 205--255
 
  []
 
@@ -1334,40 +1334,40 @@ File: img/studentas.png Graphic file (type bmp)
 File: img/destytojas.png Graphic file (type bmp)
 <img/destytojas.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--281
+Underfull \hbox (badness 10000) in paragraph at lines 272--279
 
  []
 
 File: img/administratorius.png Graphic file (type bmp)
 <img/administratorius.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--289
+Underfull \hbox (badness 10000) in paragraph at lines 280--287
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 290--291
+Underfull \hbox (badness 10000) in paragraph at lines 288--289
 
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 298--318
+Underfull \hbox (badness 10000) in paragraph at lines 296--316
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--318
+Underfull \hbox (badness 10000) in paragraph at lines 296--316
 
  []
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 298--318
+Underfull \hbox (badness 1082) in paragraph at lines 296--316
 \TU/texgyretermes(0)/bx/n/12 Problema: \TU/texgyretermes(0)/m/n/12 Universiteto
  bendruomenė nesinaudoja mūsų sistema t.y. dėstytojai toliau pa-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--318
+Underfull \hbox (badness 10000) in paragraph at lines 296--316
 
  []
 
